@@ -318,8 +318,8 @@ function WeddingInvitation({ guestName }) {
           src="/couple.jpg"
           alt="Couple"
           style={{
-            width: "300px",
-            height: "300px",
+            width: "200px",
+            height: "200px",
             objectFit: "cover",
             borderRadius: "50%",
             border: "3px solid #C9A84C",
