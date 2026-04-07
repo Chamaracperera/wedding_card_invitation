@@ -311,16 +311,35 @@ function WeddingInvitation({ guestName }) {
           <p className="wi-save-label">Wedding Day</p>
           <p className="wi-save-date">15 · 08 · 2026</p>
         </div>
+        <div style={{ marginTop: "1.5rem", textAlign: "center" }}>
+  
+        {/* 🔥 Image before guest name */}
+        <img
+          src="/couple.jpg"
+          alt="Couple"
+          style={{
+            width: "300px",
+            height: "300px",
+            objectFit: "cover",
+            borderRadius: "50%",
+            border: "3px solid #C9A84C",
+            marginBottom: "0.8rem",
+          }}
+        />
+
+        {/* Guest name */}
         <div
           style={{
-            marginTop: "1.5rem",
             fontFamily: "'Noto Serif Sinhala', serif",
-            fontSize: "0.8rem",
+            fontSize: "0.85rem",
             color: mutedText,
+            letterSpacing: "1px",
+            marginBottom: "3.5rem"
           }}
         >
           {guestName}
         </div>
+      </div>
         <div className="wi-scroll-hint">
           <span>Scroll</span>
           <div className="wi-scroll-arrow" />
